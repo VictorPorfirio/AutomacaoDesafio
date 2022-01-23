@@ -1,15 +1,18 @@
 package PageObjects;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class DSL {
 
 			private static Elementos dsl ;
-
-
+		 
 			public DSL(){
 			dsl = new Elementos();
 
 			}
-			  
+		 
+
 			public static void SetAbrirsite( ) {
 				dsl.Abrirsite();
 			}
@@ -108,6 +111,13 @@ public class DSL {
 			dsl.DeletarRegistro();	
 				
 			}
+			
+			public static void SetConfirmarExclusao() {
+				dsl.ConfirmarExclusao();	
+				
+				}
+			
+		 
 
 			public static void SetSalvaEdicoes() {
 			dsl.SalvarEdicao();	
@@ -119,7 +129,7 @@ public class DSL {
 			dsl.ClicaremEditarRegistro();	
 				
 			}
-
+		 
 			 
 			 
  
