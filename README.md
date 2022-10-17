@@ -9,4 +9,5 @@ com validação de sucesso em cada operação.(cadastrado efetuado com sucesso,a
 2 efetuar alteração de dados inseridos.
 3 excluir cadastro.
 
- 
+projeto no branch MASTER ! 
+execute a classe Suite.java para dar inicio a pilha de testes;
